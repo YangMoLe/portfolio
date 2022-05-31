@@ -10,12 +10,17 @@ A starter repository showing how to build a blog with the [Eleventy](https://git
 * [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
 * [Remix on Glitch](https://glitch.com/~11ty-eleventy-base-blog)
 
-## Deploy this to your own site
+## Deploy this via Docker
 
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
+### 1. Build Docker Image
+```
+docker build -t portfolio .
+```
+### 2. Run Docker Image
+```
+docker run --rm --name portfolio -e VIRTUAL_HOST=yangmole.com -e LETSENCRYPT_HOST=yangmole.com -e VIRTUAL_PORT=80 --network net -d portfolio
+```
 
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
 
 ## Getting Started
 

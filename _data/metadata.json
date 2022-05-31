@@ -1,6 +1,6 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "My Blog",
+  "url": "https://yangmole.com",
   "language": "en",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
@@ -14,8 +14,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Janik Möller",
+    "email": "janik.moeller.1@gmail.com",
+    "url": "https://yangmole.com/about-me/"
   }
 }

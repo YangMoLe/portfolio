@@ -1,4 +1,15 @@
 /* Colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lightgray: #e0e0e0;
+    --gray: #ffffff;
+    --darkgray: hsl(206, 19%, 17%);
+    --navy: #111111;
+    --blue: var(--pewter);
+    --white: #000000;
+  }
+}
+
 :root {
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
@@ -20,6 +31,7 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
+  font-weight: 400;
 }
 p:last-child {
   margin-bottom: 0;
@@ -147,6 +159,16 @@ code {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* Home */
+.hero{
+  padding-top: 5rem;
+}
+.wrapper{
+  max-width: 1260px;
+  margin: 0px auto;
+
 }
 
 /* Posts list */

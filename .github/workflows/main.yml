@@ -31,11 +31,12 @@ jobs:
         env:
           DOCKER_USER: ${{secrets.DOCKER_USER}}
           DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+          DOCKER_TAG: ${{ github.event.repository.owner }}/${{ github.event.repository.name }}-${{ github.ref_name }}
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag ${{ github.repository }}-${{ github.ref_name }}
+        run: docker build . --file Dockerfile --tag $DOCKER_TAG
         
       - name: Docker Push
-        run: docker push ${{ github.repository }}-${{ github.ref_name }}
+        run: docker push $DOCKER_TAG
 

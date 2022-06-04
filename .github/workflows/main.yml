@@ -37,5 +37,5 @@ jobs:
         run: docker build . --file Dockerfile --tag ${{ github.event.repository.name }}-${{ github.ref_name }}
         
       - name: Docker Push
-        run: docker push chamodshehanka/node-test
+        run: docker push ${{ github.event.repository.name }}-${{ github.ref_name }}
 

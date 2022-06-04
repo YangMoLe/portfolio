@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web:
+      image: yangmole/portfolio-main
+      environment:
+        - VIRTUAL_HOST=yangmole.com 
+        - LETSENCRYPT_HOST=yangmole.com
+        - VIRTUAL_PORT=80
+      network:
+        - net

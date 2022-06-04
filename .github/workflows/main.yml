@@ -39,3 +39,6 @@ jobs:
       - name: Docker Push
         run: docker push yangmole/${{ github.event.repository.name }}-${{ github.ref_name }}
 
+      - name: Deploy To Server
+        run: bash deploy.sh
+

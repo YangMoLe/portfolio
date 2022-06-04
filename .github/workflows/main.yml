@@ -6,7 +6,7 @@ on:
     - cron: '*/60 * * * *'
     
 jobs:
-  Explore-GitHub-Actions:
+  Build-n-Deploy-Eleventy-To-Docker-Hub:
     runs-on: ubuntu-latest
 
     strategy:

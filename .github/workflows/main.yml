@@ -34,8 +34,8 @@ jobs:
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag ${{ github.event.repository.name }}-${{ github.ref_name }}
+        run: docker build . --file Dockerfile --tag ${{ github.event.repository }}-${{ github.ref_name }}
         
       - name: Docker Push
-        run: docker push ${{ github.event.repository.name }}-${{ github.ref_name }}
+        run: docker push ${{ github.event.repository }}-${{ github.ref_name }}
 

@@ -11,7 +11,7 @@ chmod 600 ssh_key # private keys need to have strict permission to be accepted b
 echo "${SERVER_PUBLIC_KEY}" | base64 -d >> ~/.ssh/known_hosts
 
 echo "Deploying via remote SSH"
-ssh -i ssh_key "yangsudo@144.91.72.53" \
+ssh -v -i ssh_key "yangsudo@144.91.72.53" \
   "docker pull yangmole/portfolio-main:latest \
   && docker stop live-container \
   && docker rm live-container \

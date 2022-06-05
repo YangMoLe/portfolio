@@ -8,6 +8,8 @@ on:
 jobs:
   Build-n-Deploy-Eleventy-To-Docker-Hub:
     runs-on: ubuntu-latest
+    env:
+      tag: yangmole/portfolio-main
 
     strategy:
       matrix:
@@ -34,10 +36,10 @@ jobs:
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag yangmole/${{ github.event.repository.name }}-${{ github.ref_name }}
+        run: docker build . --file Dockerfile --tag $tag
         
       - name: Docker Push
-        run: docker push yangmole/${{ github.event.repository.name }}-${{ github.ref_name }}
+        run: docker push $tag
 
       - name: Install SSH Key
         uses: kielabokkie/ssh-key-and-known-hosts-action@v1

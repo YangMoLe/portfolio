@@ -17,6 +17,8 @@ jobs:
 
 
     steps:
+      - name: Upgrade NPM
+        run: npm install -g npm
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}

@@ -25,8 +25,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-
       - name: Install dependencies & build
+        with:
+          useLockFile: false
         run: |
           npm ci
           npm run build

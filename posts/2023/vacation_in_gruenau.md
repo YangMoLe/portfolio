@@ -1,7 +1,7 @@
 ---
 title: Vacation in Grünau.
 description: This is a post about vacation in grünau near the kasberg in upper austria.
-date: 2023-25-01
+date: 2023-01-25
 tags:
   - snow
   - alm

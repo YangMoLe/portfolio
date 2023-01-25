@@ -27,52 +27,52 @@
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/page-list/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/another-tag/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/number-2/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/second-tag/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/posts-with-two-tags/</loc>
-    <lastmod>2022-05-31</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/new-tag/</loc>
-    <lastmod>2022-05-31</lastmod>
+    <lastmod>2022-10-22</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2022-06-04</lastmod>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page-list/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/new-tag/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/another-tag/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/second-tag/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/posts-with-two-tags/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/number-2/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-10-22</lastmod>
   </url>
 </urlset>

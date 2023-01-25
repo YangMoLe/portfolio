@@ -12,24 +12,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "https://github.com/YangMoLe/portfolio.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Janik Mölller",
+    "email": "janik.moeller.1@gmail.com",
+    "url": "https://januscheck.de/"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "homepage": "https://januscheck.de/",
   "dependencies": {
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "luxon": "^2.4.0",
+    "luxon": ">=2.5.2",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4"
   },

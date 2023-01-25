@@ -62,17 +62,37 @@
   </url>
   
   <url>
+    <loc>https://example.com/tags/number-2/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/posts-with-two-tags/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/number-2/</loc>
+    <loc>https://example.com/tags/snow/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/alm/</loc>
+    <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/grunau/</loc>
     <lastmod>2022-10-22</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/about/</loc>
     <lastmod>2022-10-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/vacation_in_gruenau_2023/</loc>
+    <lastmod>2025-01-01</lastmod>
   </url>
 </urlset>
